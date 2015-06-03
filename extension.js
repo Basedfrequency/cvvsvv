@@ -55,7 +55,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "Lain Iwakura",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -71,11 +71,11 @@
         lockGuard: false,
         maximumLocktime: 10,
         cycleGuard: true,
-        maximumCycletime: 10,
+        maximumCycletime: 30,
         voteSkip: false,
         voteSkipLimit: 10,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 30,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -93,16 +93,16 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Welcome to the room ^_^ ",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
         opLink: null,
         rulesLink: null,
         themeLink: null,
-        fbLink: null,
-        youtubeLink: null,
-        website: null,
+        fbLink: "https://www.facebook.com/Suicideforestt",
+        youtubeLink: "https://www.youtube.com/channel/UCmV_-7YgmoBGhy4vdSfE1CA",
+        website: "https://soundcloud.com/jukai-suicide-forest",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
